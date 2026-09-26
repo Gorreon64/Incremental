@@ -1,0 +1,44 @@
+/* Configuración general de la página */
+body {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Título de la página */
+header {
+    background-color: rgb(60, 60, 60);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+/* Texto del título */
+h1 {
+    color: rgb(255, 200, 50);
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Contenedor del juego */
+#unity-container {
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgb(0, 0, 0);
+}
+
+/* Canvas donde se ejecuta Unity */
+#unity-canvas {
+    border-radius: 10px;
+}
+
+/* Efecto al pasar el mouse por el título */
+h1:hover {
+    color: rgb(255, 150, 0);
+    transition: 0.3s;
+}
